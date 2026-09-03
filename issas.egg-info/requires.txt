@@ -1,0 +1,10 @@
+PyQt5
+matplotlib
+scipy
+numpy
+tqdm
+sympy
+opencv-python
+pillow>=9.4.0
+sam2
+torch==2.7.1

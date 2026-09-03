@@ -1,0 +1,28 @@
+[project]
+name = "issas"
+version = "0.1.0"
+description = "Interactive SAM2-based Smart Annotation System"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "PyQt5",
+    "matplotlib",
+    "scipy",
+    "numpy",
+    "tqdm",
+    "sympy",
+    "opencv-python",
+    "pillow>=9.4.0",
+    "sam2",
+    "torch==2.7.1",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+exclude = ["imgs", "Test_data"]
+
+[tool.uv.sources]
+sam2 = { workspace = true }

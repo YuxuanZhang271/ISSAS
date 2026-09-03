@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+issas.egg-info/PKG-INFO
+issas.egg-info/SOURCES.txt
+issas.egg-info/dependency_links.txt
+issas.egg-info/requires.txt
+issas.egg-info/top_level.txt
